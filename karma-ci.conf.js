@@ -56,9 +56,7 @@ module.exports = function(config) {
 
     });
         
-    console.log(process.env);
-
-    if (process.env.ON_K8S == true){
+    if (process.env.ON_K8S == 'true'){
         console.log("Running with Kubernetes setup.")
     } else {
         console.log("Running with Docker setup.")
