@@ -55,6 +55,8 @@ module.exports = function(config) {
 		singleRun: true
 
     });
+        
+    console.log(process.env);
 
     if (process.env.ON_K8S == true){
         console.log("Running with Kubernetes setup.")
