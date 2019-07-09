@@ -6,7 +6,9 @@
   "scripts": {
     "start": "ui5 serve",
     "lint": "eslint webapp",
-    "karma": "karma start",
+    "karma": "karma start ./karma-ci.conf.js",
+    "karma-compose": "docker-compose up --abort-on-container-exit",
+    "karma-local": "karma start",
     "watch": "npm run karma",
     "test": "npm run lint && npm run karma",
     "build": "rimraf dist && ui5 build -a",
@@ -23,7 +25,10 @@
     "eslint": "^5.16.0",
     "karma": "^4.0.1",
     "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-junit-reporter": "^1.2.0",
     "karma-ui5": "^1.0.0",
+    "karma-webdriver-launcher": "^1.0.5",
     "local-web-server": "^3.0.4",
     "rimraf": "^2.6.2"
   }
