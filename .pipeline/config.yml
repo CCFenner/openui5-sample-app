@@ -1,0 +1,6 @@
+general:
+  buildType: npm
+  skipBuild: true
+stages:
+  'Additional Unit Tests':
+    karmaExecuteTests: true
