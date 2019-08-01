@@ -1,5 +1,5 @@
 general:
-  buildType: npm
+  buildTool: npm
   skipBuild: true
 stages:
   'Additional Unit Tests':
