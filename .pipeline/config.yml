@@ -5,3 +5,6 @@ general:
 stages:
   'Additional Unit Tests':
     karmaExecuteTests: true
+steps:
+  setVersion:
+    commitVersion: false
