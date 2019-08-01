@@ -1,7 +1,5 @@
 @Library(['piper-lib', 'piper-lib-os']) _
 
-@Library('piper-lib') _
-
 sapPiperPipeline script: this
 /*
 pipeline {
