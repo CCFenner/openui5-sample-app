@@ -30,6 +30,7 @@
     "karma-ui5": "^1.0.0",
     "karma-webdriver-launcher": "^1.0.5",
     "local-web-server": "^3.0.4",
+    "piper-karma-config": "^0.6.0",
     "rimraf": "^2.6.2"
   }
 }
